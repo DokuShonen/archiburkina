@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Œuvres Architecturales - ArchiBurkina</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">ArchiBurkina</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="oeuvres.html" class="active">Œuvres</a></li>
+            <li><a href="artisans.html">Artisans</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main style="padding-top: 80px;">
+        <section class="container">
+            <h2 class="section-title">Galerie des Merveilles Bâties</h2>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="bobo">Bobo-Dioulasso</button>
+                <button class="filter-btn" data-filter="tiebele">Tiébélé</button>
+                <button class="filter-btn" data-filter="laongo">Laongo</button>
+            </div>
+
+            <!-- ID AJOUTÉ pour un ancrage potentiel -->
+            <div class="gallery" id="gallery">
+                <div class="gallery-item bobo">
+                    <img src="assets/images/mosqu_bobo.jpg" alt="Mosquée de Bobo-Dioulasso">
+                    <div class="gallery-item-info">
+                        <h4>Grande Mosquée de Bobo-Dioulasso</h4>
+                        <p>Style soudanais, construite en 1880. Un chef-d'œuvre d'architecture de terre.</p>
+                    </div>
+                </div>
+                <div class="gallery-item tiebele">
+                    <img src="assets/images/tiebele.jpg" alt="Cour royale de Tiébélé">
+                    <div class="gallery-item-info">
+                        <h4>Cour Royale de Tiébélé</h4>
+                        <p>Architecture Kassena avec des fresques murales géométriques peintes à la main.</p>
+                    </div>
+                </div>
+                <div class="gallery-item laongo">
+                    <img src="assets/images/laongo.jpg" alt="Sculptures sur granit de Laongo">
+                    <div class="gallery-item-info">
+                        <h4>Sculptures de Granit de Laongo</h4>
+                        <p>Un musée à ciel ouvert où la nature et la sculpture monumentale fusionnent.</p>
+                    </div>
+                </div>
+                <div class="gallery-item bobo">
+                    <img src="assets/images/village_gourounsi.jpg" alt="Maison traditionnelle">
+                    <div class="gallery-item-info">
+                        <h4>Habitat traditionnel Gourounsi</h4>
+                        <p>Maisons en banco aux formes arrondies, souvent reliées entre elles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2025 ArchiBurkina. Tous droits réservés.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
